@@ -151,5 +151,5 @@ if (process.argv.includes("--stdio")) {
     console.error("MCP request failed:", errorText(error));
     if (!response.headersSent) response.status(500).json({ error: "MCP request failed" });
   }));
-  app.listen(port, "127.0.0.1", () => console.error(`Ravex MCP server listening on http://127.0.0.1:${port}/mcp`));
+  app.listen(port, "127.0.0.1", () => console.error(`Ravex-mcp-server listening on http://127.0.0.1:${port}/mcp`));
 }

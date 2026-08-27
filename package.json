@@ -1,5 +1,5 @@
 {
-  "name": "@ravex/mcp-server",
+  "name": "ravex-mcp-server",
   "version": "1.0.0",
   "private": true,
   "type": "module",

@@ -1,6 +1,6 @@
-# Ravex MCP Server
+# Ravex-mcp-server
 
-The Ravex MCP server exposes validated Partner API tools to MCP-compatible AI agents.
+Ravex-mcp-server exposes validated Partner API tools to MCP-compatible AI agents.
 
 ## Configuration
 
