@@ -48,6 +48,11 @@ function registerTools(server: McpServer, request?: Request) {
     inputSchema: {},
   }, async () => result(await ravexRequest("/balance", {}, request)));
 
+  server.registerTool("ravex_get_pricing", {
+    description: "Read the authenticated business partner's pricing tier, per-service fees, and platform dollar card settings. Read-only.",
+    inputSchema: {},
+  }, async () => result(await ravexRequest("/pricing", {}, request)));
+
   server.registerTool("ravex_list_gift_card_catalog", {
     description: "List current Ravex gift card sell brands, rates, and supported denominations. Read-only.",
     inputSchema: {},
